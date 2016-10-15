@@ -4,3 +4,9 @@ E:\GitProjects\MyKnockoutTest\MyKnockoutTest\bin\MyKnockoutTest.pdb
 E:\GitProjects\MyKnockoutTest\MyKnockoutTest\obj\Debug\MyKnockoutTest.csprojResolveAssemblyReference.cache
 E:\GitProjects\MyKnockoutTest\MyKnockoutTest\obj\Debug\MyKnockoutTest.dll
 E:\GitProjects\MyKnockoutTest\MyKnockoutTest\obj\Debug\MyKnockoutTest.pdb
+E:\GitProjects\MyKnockoutTesting\MyKnockoutTest\bin\MyKnockoutTest.dll.config
+E:\GitProjects\MyKnockoutTesting\MyKnockoutTest\bin\MyKnockoutTest.dll
+E:\GitProjects\MyKnockoutTesting\MyKnockoutTest\bin\MyKnockoutTest.pdb
+E:\GitProjects\MyKnockoutTesting\MyKnockoutTest\obj\Debug\MyKnockoutTest.csprojResolveAssemblyReference.cache
+E:\GitProjects\MyKnockoutTesting\MyKnockoutTest\obj\Debug\MyKnockoutTest.dll
+E:\GitProjects\MyKnockoutTesting\MyKnockoutTest\obj\Debug\MyKnockoutTest.pdb
