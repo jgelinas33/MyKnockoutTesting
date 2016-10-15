@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <div id="bindingcontainer">
+        <div data-bind="foreach:masterItems">
+            <div data-bind="text: masterRecordString, click: $parent.ItemChosen"></div>
+        </div>
+
+        <div id="detailsContainer">
+            <div data-bind="text: chosenDetail() ? chosenDetail().detailRecord : ''"></div>
+        </div>
+        <div id="detailButton">
+            <button >Details</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/knockout-3.4.0.js"></script>
+    <script type="text/javascript" src="scripts/MyGridViewModel.js"></script>
+    <script type="text/javascript" src="scripts/MasterRecordModel.js"></script>
+    <script type="text/javascript" src="scripts/DetailRecordModel.js"></script>
+    <script type="text/javascript" src="scripts/MyMockupData.js"></script>
+    <script type="text/javascript" src="scripts/MyStartup.js"></script>
+</body>
+</html>
