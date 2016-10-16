@@ -99,9 +99,12 @@
     <Content Include="scripts\MyGridViewModel.js" />
     <Content Include="scripts\MyMockupData.js" />
     <Content Include="scripts\MyStartup.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APIControlllers\AdventureWorks.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -109,7 +112,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="APIControlllers\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>

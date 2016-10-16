@@ -11,7 +11,6 @@ namespace MyKnockoutTest
     public static class WebApiConfig
     {
         public static string dbConnectionString;
-        public static string apiUrl;
         public static void Register(HttpConfiguration config)
         {
             // this configuration indicates that routes will be taken care of via route attributes in the controller methods
@@ -38,7 +37,6 @@ namespace MyKnockoutTest
             var suffix = typeof(DefaultHttpControllerSelector).GetField("ControllerSuffix", BindingFlags.Static | BindingFlags.Public);
             if (suffix != null) suffix.SetValue(null, string.Empty);
 
-            dbConnectionString = ConfigurationManager.ConnectionStrings["AccountRegisterApp"].ConnectionString;
-            apiUrl = ConfigurationManager.AppSettings["RegisterDataAPIUrl"];
+            dbConnectionString = ConfigurationManager.ConnectionStrings["AdventureWorks"].ConnectionString;
     }
 }
